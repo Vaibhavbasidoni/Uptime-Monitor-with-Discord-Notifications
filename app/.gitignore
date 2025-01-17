@@ -1,0 +1,8 @@
+# Create .gitignore
+echo "venv/
+__pycache__/
+*.pyc
+.env
+*.db
+.pytest_cache/
+.coverage" > .gitignore
